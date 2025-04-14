@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS Style ===== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ===== TailwindCSS CDN ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- ===== Flowbite JS ===== -->
+    <script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
+    <title>Planet English</title>
+</head>
+
+<body>
+    <!-- ===== Start Navbar Section ===== -->
+    <nav class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo"> -->
+                <span class="self-center text-white text-2xl font-bold whitespace-nowrap">PlanetEnglish<span
+                        class="text-[#B589D6] font-bold">.</span></span>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button bg-[#9969C7]" class='main_btn'>
+                    <span class="span-mother">
+                        <span>C</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span>t</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>t</span>
+                    </span>
+                    <span class="span-mother2">
+                        <span>C</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span>t</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>t</span>
+                    </span>
+                </button>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 text-[#9969C7] rounded-sm md:bg-transparent md:text-[#9969C7] md:p-0">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 px-3 text-[#B589D6] rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#9969C7] md:p-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials"
+                            class="block py-2 px-3 text-[#B589D6] rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#9969C7] md:p-0">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#our_mission"
+                            class="block py-2 px-3 text-[#B589D6] rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#9969C7] md:p-0">Our
+                            Mission</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 px-3 text-[#B589D6] rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#9969C7] md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ===== End Navbar Section ===== -->
+
+    <!-- ===== Start Hero Section ===== -->
+    <section id="home" class="md:w-full w-full h-[90vh] relative overflow-hidden mt-16">
+        <video class="object-cover w-full h-full absolute top-0 left-0 opacity-90" autoPlay loop muted>
+            <source src="assets/hero_bg.mp4" type="video/mp4" />
+        </video>
+        <div
+            class="mx-8 relative z-10 flex flex-col max-w-screen-2xl justify-center items-center gap-1 h-full content-between w-[90%] md:w-full">
+            <!-- <h1>Ready for a Water Adventure</h1> -->
+            <h1 class="text-4xl md:text-6xl text-start text-white font-bold ">
+                Empowering You Through English
+            </h1>
+
+            <p class="text-white md:my-[60px] my-[30px] text-lg text-start md:text-xl font-semibold">
+                Join our global community and unlock new opportunities through confident communication.
+            </p>
+
+            <button type="button" class='main_btn'>
+                <span class="span-mother">
+                    <span>S</span><span>t</span><span>a</span><span>r</span><span>t</span>
+                </span>
+                <span class="span-mother2">
+                    <span>S</span><span>t</span><span>a</span><span>r</span><span>t</span>
+                </span>
+            </button>
+        </div>
+    </section>
+    <!-- ===== End Hero Section ===== -->
+
+    <!-- ===== Start About Section ===== -->
+    <section id="about" class="bg-white dark:bg-gray-900">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 text-center md:text-left">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">About Planet
+                    English</h2>
+                <p class="mb-4 font-semibold">Founded in 2023 in the heart of Salé, Planet English Association is
+                    dedicated to making
+                    English accessible to all.
+                    We offer engaging, personalized lessons designed for children, teens, and adults.
+                    Our mission is to connect our local community to global opportunities by nurturing a love for
+                    learning English — one student at a time.</p>
+                <p class="font-semibold">Whether you're just starting or looking to improve your skills, our supportive
+                    and welcoming
+                    environment helps every learner feel confident. At Planet English, we believe that language is not
+                    just a subject — it's a gateway to the world.
+
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg"
+                    src="assets/about_1.jpg"
+                    alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg"
+                    src="assets/about_2.jpg"
+                    alt="office content 2">
+            </div>
+        </div>
+    </section>
+    <!-- ===== End About Section ===== -->
+
+    <!-- ===== Start Our Servicees Section ===== -->
+    <section class="bg-gray-900">
+        <div class="container mx-auto px-4 py-16 max-w-6xl">
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <p class="text-[#9969C7] uppercase tracking-wider text-sm mb-2 font-quicksand">OUR EXPERTISE</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-charcoal font-quicksand mb-6 text-white">
+                    Tailored English Programs Designed <br class="hidden md:block">
+                    to Meet Your Learning Goals
+                </h2>
+            </div>
+
+            <!-- Event Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Event Card 1 -->
+                <div class="rounded-xl overflow-hidden shadow-md relative group">
+                    <div class="relative">
+                        <!-- The image with overlay -->
+                        <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80"
+                            alt="Recruitment Events" class="w-full h-64 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+
+                        <!-- Play Button -->
+                        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                            <div
+                                class="bg-white rounded-full p-3 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Caption -->
+                        <div class="absolute bottom-0 left-0 p-6 z-10">
+                            <h3 class="text-white text-xl font-semibold font-quicksand">Conversational English                            </h3>
+                            <p class="text-gray-200 text-sm mt-1">Open to both teen and adult English learners.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="rounded-xl overflow-hidden shadow-md relative group">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                            alt="Development Talents" class="w-full h-64 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+
+                        <!-- Play Button -->
+                        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                            <div
+                                class="bg-white rounded-full p-3 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Caption -->
+                        <div class="absolute bottom-0 left-0 p-6 z-10">
+                            <h3 class="text-white text-xl font-semibold font-quicksand">English After School</h3>
+                            <p class="text-gray-200 text-sm mt-1">Exclusive programs available for currently enrolled school students.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="rounded-xl overflow-hidden shadow-md relative group">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80"
+                            alt="Executive Search Process" class="w-full h-64 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+
+                        <!-- Play Button -->
+                        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                            <div
+                                class="bg-white rounded-full p-3 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Caption -->
+                        <div class="absolute bottom-0 left-0 p-6 z-10">
+                            <h3 class="text-white text-xl font-semibold font-quicksand">English For Juniors</h3>
+                            <p class="text-gray-200 text-sm mt-1">Ideal for young learners, children, and preteens alike.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 4 -->
+                <div class="rounded-xl overflow-hidden shadow-md relative group">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+                            alt="Leadership Events" class="w-full h-64 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+
+                        <!-- Play Button -->
+                        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                            <div
+                                class="bg-white rounded-full p-3 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Caption -->
+                        <div class="absolute bottom-0 left-0 p-6 z-10">
+                            <h3 class="text-white text-xl font-semibold font-quicksand">Professional English</h3>
+                            <p class="text-gray-200 text-sm mt-1"> Prepare for IELTS, TOEFL, visa interviews, and more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End Our Servicees Section ===== -->
+
+    <!-- ===== Start Meet the Founder Section ===== -->
+    <section class="w-full bg-[#f5f5f3] flex items-center justify-center overflow-hidden md:h-[90vh]">
+        <div class="container mx-auto max-w-6xl px-4 md:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center">
+                <!-- Founder Image -->
+                <div class="relative h-full flex justify-center items-center">
+                    <img src="assets/founder.jpg" alt="Sarah Johnson, Founder"
+                        class="w-[75%] h-[75%] aspect-[4/5] object-cover rounded-full" />
+                </div>
+
+                <!-- Founder Text -->
+                <div class="flex flex-col space-y-10">
+                    <div class="flex items-center space-x-2">
+                        <div class="h-px w-6 bg-gray-400"></div>
+                        <p class="mb-4 font-semibold">
+                            Hello, my name is<br />
+                            Salma Saady.
+                        </p>
+                    </div>
+
+                    <div class="space-y-8">
+                        <h2
+                            class="text-3xl md:text-4xl lg:text-5xl font-playfair font-normal text-gray-800 leading-tight">
+                            I'm a language educator and founder of Planet English.
+                        </h2>
+
+                        <a href="https://www.instagram.com/salma_saady/"
+                            class="inline-flex items-center text-[#B589D6] hover:text-gray-900 transition-colors">
+                            <span class="mr-2">See my Instagram</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="h-4 w-4">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div
+                        class="text-gray-500 text-sm font-light transform rotate-90 origin-left hidden md:block absolute right-0 top-1/2">
+                        Meet the founder
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End Meet the Founder Section ===== -->
+
+    <!-- ===== Start Testimonials Section ===== -->
+    <section id="testimonials" class="py-16 px-4 bg-gray-900 md:h-[90vh] flex justify-center items-center md:px-16">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+            <!-- Left Column -->
+            <div>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
+                    What Our <br /> Learners Says
+                </h2>
+                <p class="mb-4 font-semibold text-gray-400">
+                    Building confidence in every learner’s journey. Real stories from students who’ve grown their English skills with us.
+                </p>
+                <button type="button bg-[#B589D6]" class='main_btn'>
+                    <span class="span-mother">
+                        <span>E</span>
+                        <span>x</span>
+                        <span>p</span>
+                        <span>l</span>
+                        <span>o</span>
+                        <span>r</span>
+                        <span>e</span>
+                    </span>
+                    <span class="span-mother2">
+                        <span>E</span>
+                        <span>x</span>
+                        <span>p</span>
+                        <span>l</span>
+                        <span>o</span>
+                        <span>r</span>
+                        <span>e</span>
+                    </span>
+                </button>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-6">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-4 rounded-lg shadow flex items-start space-x-4">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mehwish"
+                        class="w-12 h-12 rounded-full object-cover">
+                    <div>
+                        <h4 class="font-bold text-gray-900">Mehwish</h4>
+                        <p class="text-gray-600 text-sm">
+                            Supportive, attentive, and expert instructors. I gained fluency quickly and felt truly supported throughout every stage of learning. Highly recommend!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-4 rounded-lg shadow flex items-start space-x-4 border-l-4 border-purple-500">
+                    <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Elizabeth Jeff"
+                        class="w-12 h-12 rounded-full object-cover">
+                    <div>
+                        <h4 class="font-bold text-gray-900">Elizabeth Jeff</h4>
+                        <p class="text-gray-600 text-sm">
+                            Motivating, efficient, and deeply knowledgeable. Their personalized approach helped me achieve real English improvement. I’m proud of my progress here!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-4 rounded-lg shadow flex items-start space-x-4">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Thomas"
+                        class="w-12 h-12 rounded-full object-cover">
+                    <div>
+                        <h4 class="font-bold text-gray-900">Emily Thomas</h4>
+                        <p class="text-gray-600 text-sm">
+                            Passionate, patient, and professional teachers. The learning environment was fun and engaging. I’m more confident in speaking English every day!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End Testimonials Section ===== -->
+
+    <!-- ===== Start Our Mission Section ===== -->
+    <section id="our_mission" class="bg-[#f5f5f3]">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg"
+                    src="assets/our_mission_1.jpg"
+                    alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg"
+                    src="assets/our_mission_2.jpg"
+                    alt="office content 2">
+            </div>
+            <div class="font-light text-gray-400 sm:text-lg dark:text-gray-500 text-center md:text-left">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-600">Learn. Connect. Grow.</h2>
+                <p class="mb-4 font-semibold">In Salé, English education begins early in private schools, with public schools only recently incorporating it into their curriculum. While most students have access to English through online resources, fluency remains a challenge for many. Parents often seek to help their children become fluent but struggle to find a supportive community for them to grow in.</p>
+                <p class="font-semibold">Whether you're just starting your English journey or looking to advance your skills, our engaging and personalized lessons ensure that every learner feels confident and supported. At Planet English, we believe language is more than just a subject — it’s the gateway to new possibilities.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End Our Mission Section ===== -->
+
+    <!-- ===== Start Contact Us Section ===== -->
+    <section id="contact" class="min-h-[90vh] bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto p-6 md:p-10">
+            <!-- Contact Us Section -->
+            <main class="md:grid grid-cols-2 gap-8">
+                <div class="mb-8 md:mb-0 flex flex-col justify-between">
+                    <div class="mb-8 md:mb-0">
+                        <h1 class="text-5xl md:text-6xl font-bold md:mb-16">Contact Us</h1>
+                    </div>
+                    <div class="mt-auto hidden md:block">
+                        <div class="flex space-x-4 mb-4">
+                            <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                                    viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(8.53333,8.53333)">
+                                            <path
+                                                d="M15,3c-6.627,0 -12,5.373 -12,12c0,6.016 4.432,10.984 10.206,11.852v-8.672h-2.969v-3.154h2.969v-2.099c0,-3.475 1.693,-5 4.581,-5c1.383,0 2.115,0.103 2.461,0.149v2.753h-1.97c-1.226,0 -1.654,1.163 -1.654,2.473v1.724h3.593l-0.487,3.154h-3.106v8.697c5.857,-0.794 10.376,-5.802 10.376,-11.877c0,-6.627 -5.373,-12 -12,-12z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                                    viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(10.66667,10.66667)">
+                                            <path
+                                                d="M8,3c-2.761,0 -5,2.239 -5,5v8c0,2.761 2.239,5 5,5h8c2.761,0 5,-2.239 5,-5v-8c0,-2.761 -2.239,-5 -5,-5zM18,5c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM12,7c2.761,0 5,2.239 5,5c0,2.761 -2.239,5 -5,5c-2.761,0 -5,-2.239 -5,-5c0,-2.761 2.239,-5 5,-5zM12,9c-1.65685,0 -3,1.34315 -3,3c0,1.65685 1.34315,3 3,3c1.65685,0 3,-1.34315 3,-3c0,-1.65685 -1.34315,-3 -3,-3z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                                    viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(8.53333,8.53333)">
+                                            <path
+                                                d="M15,4c-4.186,0 -9.61914,1.04883 -9.61914,1.04883l-0.01367,0.01563c-1.90652,0.30491 -3.36719,1.94317 -3.36719,3.93555v6v0.00195v5.99805v0.00195c0.00384,1.96564 1.4353,3.63719 3.37695,3.94336l0.00391,0.00586c0,0 5.43314,1.05078 9.61914,1.05078c4.186,0 9.61914,-1.05078 9.61914,-1.05078l0.00195,-0.00195c1.94389,-0.30554 3.37683,-1.97951 3.37891,-3.94727v-0.00195v-5.99805v-0.00195v-6c-0.00288,-1.96638 -1.43457,-3.63903 -3.37695,-3.94531l-0.00391,-0.00586c0,0 -5.43314,-1.04883 -9.61914,-1.04883zM12,10.39844l8,4.60156l-8,4.60156z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                                    viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(4,4)">
+                                            <path
+                                                d="M48,8h-32c-4.418,0 -8,3.582 -8,8v32c0,4.418 3.582,8 8,8h32c4.418,0 8,-3.582 8,-8v-32c0,-4.418 -3.582,-8 -8,-8zM50,27c-3.964,0 -6.885,-1.09 -9,-2.695v14.195c0,6.341 -5.159,11.5 -11.5,11.5c-6.341,0 -11.5,-5.159 -11.5,-11.5c0,-6.341 5.159,-11.5 11.5,-11.5h2v5h-2c-3.584,0 -6.5,2.916 -6.5,6.5c0,3.584 2.916,6.5 6.5,6.5c3.584,0 6.5,-2.916 6.5,-6.5v-24.5h5c0.018,1.323 0.533,8 9,8z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="text-xs text-gray-400">
+                            © 2025 | Privacy Policy
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- Map -->
+                    <div class="bg-gray-900 rounded-lg overflow-hidden mb-6 relative shadow-xl">
+                        <div id="map" class="h-72 map-container"></div>
+                        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <div
+                                class="h-5 w-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse z-50">
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105799.63616087647!2d-6.855069158005656!3d34.037749365407194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7695fc6d0ea0b%3A0xc54575dea3dd9353!2zU2Fsw6ksIE1vcm9jY28!5e0!3m2!1sen!2sus!4v1744595284981!5m2!1sen!2sus"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <p class="text-gray-400 text-sm mb-1">Address</p>
+                            <p class="font-medium">97. lotis Rahat Elbal, Elamal. Kenitra road</p>
+                            <p class="font-medium">Salé. MA 11000</p>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm mb-1">Phone</p>
+                            <a href="tel:+212 682 723 973" class="font-medium">+212 682 723 973</a>
+                            <p class="text-gray-400 text-sm mt-6 mb-1">Email</p>
+                            <a class="font-medium" href="mailto:planetenglish@protonmail.com">planetenglish@protonmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Mobile Footer -->
+            <div class="mt-16 md:hidden">
+                <div class="flex space-x-4 mb-4">
+                    <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(8.53333,8.53333)">
+                                    <path
+                                        d="M15,3c-6.627,0 -12,5.373 -12,12c0,6.016 4.432,10.984 10.206,11.852v-8.672h-2.969v-3.154h2.969v-2.099c0,-3.475 1.693,-5 4.581,-5c1.383,0 2.115,0.103 2.461,0.149v2.753h-1.97c-1.226,0 -1.654,1.163 -1.654,2.473v1.724h3.593l-0.487,3.154h-3.106v8.697c5.857,-0.794 10.376,-5.802 10.376,-11.877c0,-6.627 -5.373,-12 -12,-12z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(10.66667,10.66667)">
+                                    <path
+                                        d="M8,3c-2.761,0 -5,2.239 -5,5v8c0,2.761 2.239,5 5,5h8c2.761,0 5,-2.239 5,-5v-8c0,-2.761 -2.239,-5 -5,-5zM18,5c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM12,7c2.761,0 5,2.239 5,5c0,2.761 -2.239,5 -5,5c-2.761,0 -5,-2.239 -5,-5c0,-2.761 2.239,-5 5,-5zM12,9c-1.65685,0 -3,1.34315 -3,3c0,1.65685 1.34315,3 3,3c1.65685,0 3,-1.34315 3,-3c0,-1.65685 -1.34315,-3 -3,-3z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(8.53333,8.53333)">
+                                    <path
+                                        d="M15,4c-4.186,0 -9.61914,1.04883 -9.61914,1.04883l-0.01367,0.01563c-1.90652,0.30491 -3.36719,1.94317 -3.36719,3.93555v6v0.00195v5.99805v0.00195c0.00384,1.96564 1.4353,3.63719 3.37695,3.94336l0.00391,0.00586c0,0 5.43314,1.05078 9.61914,1.05078c4.186,0 9.61914,-1.05078 9.61914,-1.05078l0.00195,-0.00195c1.94389,-0.30554 3.37683,-1.97951 3.37891,-3.94727v-0.00195v-5.99805v-0.00195v-6c-0.00288,-1.96638 -1.43457,-3.63903 -3.37695,-3.94531l-0.00391,-0.00586c0,0 -5.43314,-1.04883 -9.61914,-1.04883zM12,10.39844l8,4.60156l-8,4.60156z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="w-6 h-6 flex items-center justify-center text-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256" style="fill:#FFFFFF;">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(4,4)">
+                                    <path
+                                        d="M48,8h-32c-4.418,0 -8,3.582 -8,8v32c0,4.418 3.582,8 8,8h32c4.418,0 8,-3.582 8,-8v-32c0,-4.418 -3.582,-8 -8,-8zM50,27c-3.964,0 -6.885,-1.09 -9,-2.695v14.195c0,6.341 -5.159,11.5 -11.5,11.5c-6.341,0 -11.5,-5.159 -11.5,-11.5c0,-6.341 5.159,-11.5 11.5,-11.5h2v5h-2c-3.584,0 -6.5,2.916 -6.5,6.5c0,3.584 2.916,6.5 6.5,6.5c3.584,0 6.5,-2.916 6.5,-6.5v-24.5h5c0.018,1.323 0.533,8 9,8z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="text-xs text-gray-400">
+                    © 2025 | Privacy Policy
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End Contact Us Section ===== -->
+
+    <!-- ===== Start Footer Section ===== -->
+    <footer>
+        <p class="text-center bg-gray-900 text-white">© Designed with ❤️ By <a href="https://www.instagram.com/imad.iam/" class="text-[#9969C7] font-bold underline">iMad</a>.</p>
+    </footer>
+    <!-- ===== End Footer Section ===== -->
+</body>
+
+</html>
