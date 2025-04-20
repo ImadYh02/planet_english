@@ -16,7 +16,7 @@
 <body>
     <!-- ===== Start Navbar Section ===== -->
     <nav class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="max-w-screen-xl bg-gray-900 flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo"> -->
                 <span class="self-center text-white text-2xl font-bold whitespace-nowrap">PlanetEnglish<span
@@ -56,7 +56,7 @@
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                 <ul
-                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700">
                     <li>
                         <a href="#home"
                             class="block py-2 px-3 text-[#9969C7] rounded-sm md:bg-transparent md:text-[#9969C7] md:p-0">Home</a>
@@ -85,12 +85,12 @@
     <!-- ===== End Navbar Section ===== -->
 
     <!-- ===== Start Hero Section ===== -->
-    <section id="home" class="md:w-full w-full h-[90vh] relative overflow-hidden mt-16">
-        <video class="object-cover w-full h-full absolute top-0 left-0 opacity-90" autoPlay loop muted>
+    <section id="home" class="md:w-full w-full h-[90vh] relative overflow-hidden mt-16 bg-cover bg-center" style="background-image: url('assets/hero_bg.jpg');">
+        <!-- <video class="object-cover w-full h-full absolute top-0 left-0 opacity-90" autoPlay loop muted>
             <source src="assets/hero_bg.mp4" type="video/mp4" />
-        </video>
+        </video> -->
         <div
-            class="mx-8 relative z-10 flex flex-col max-w-screen-2xl justify-center items-center gap-1 h-full content-between w-[90%] md:w-full">
+            class="mx-8 absolute z-10 flex flex-col max-w-screen-2xl justify-center items-center gap-1 h-full content-between w-[90%] md:w-full">
             <!-- <h1>Ready for a Water Adventure</h1> -->
             <h1 class="text-4xl md:text-6xl text-start text-white font-bold ">
                 Empowering You Through English
@@ -113,9 +113,9 @@
     <!-- ===== End Hero Section ===== -->
 
     <!-- ===== Start About Section ===== -->
-    <section id="about" class="bg-white dark:bg-gray-900">
+    <section id="about" class="bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 text-center md:text-left">
+            <div class="font-light sm:text-lg text-gray-400 text-center md:text-left">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">About Planet
                     English</h2>
                 <p class="mb-4 font-semibold">Founded in 2023 in the heart of Salé, Planet English Association is
@@ -132,12 +132,8 @@
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
-                <img class="w-full rounded-lg"
-                    src="assets/about_1.jpg"
-                    alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg"
-                    src="assets/about_2.jpg"
-                    alt="office content 2">
+                <img class="w-full rounded-lg" src="assets/about_1.jpg" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="assets/about_2.jpg" alt="office content 2">
             </div>
         </div>
     </section>
@@ -161,7 +157,7 @@
                 <div class="rounded-xl overflow-hidden shadow-md relative group">
                     <div class="relative">
                         <!-- The image with overlay -->
-                        <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80"
+                        <img src="assets/our_services_1.jpg"
                             alt="Recruitment Events" class="w-full h-64 object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
@@ -181,7 +177,7 @@
 
                         <!-- Caption -->
                         <div class="absolute bottom-0 left-0 p-6 z-10">
-                            <h3 class="text-white text-xl font-semibold font-quicksand">Conversational English                            </h3>
+                            <h3 class="text-white text-xl font-semibold font-quicksand">Conversational English </h3>
                             <p class="text-gray-200 text-sm mt-1">Open to both teen and adult English learners.</p>
                         </div>
                     </div>
@@ -190,7 +186,7 @@
                 <!-- Event Card 2 -->
                 <div class="rounded-xl overflow-hidden shadow-md relative group">
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                        <img src="assets/our_services_2.jpg"
                             alt="Development Talents" class="w-full h-64 object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
@@ -211,7 +207,8 @@
                         <!-- Caption -->
                         <div class="absolute bottom-0 left-0 p-6 z-10">
                             <h3 class="text-white text-xl font-semibold font-quicksand">English After School</h3>
-                            <p class="text-gray-200 text-sm mt-1">Exclusive programs available for currently enrolled school students.
+                            <p class="text-gray-200 text-sm mt-1">Exclusive programs available for currently enrolled
+                                school students.
                             </p>
                         </div>
                     </div>
@@ -220,7 +217,7 @@
                 <!-- Event Card 3 -->
                 <div class="rounded-xl overflow-hidden shadow-md relative group">
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80"
+                        <img src="assets/our_services_3.jpg"
                             alt="Executive Search Process" class="w-full h-64 object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
@@ -241,7 +238,8 @@
                         <!-- Caption -->
                         <div class="absolute bottom-0 left-0 p-6 z-10">
                             <h3 class="text-white text-xl font-semibold font-quicksand">English For Juniors</h3>
-                            <p class="text-gray-200 text-sm mt-1">Ideal for young learners, children, and preteens alike.
+                            <p class="text-gray-200 text-sm mt-1">Ideal for young learners, children, and preteens
+                                alike.
                             </p>
                         </div>
                     </div>
@@ -250,7 +248,7 @@
                 <!-- Event Card 4 -->
                 <div class="rounded-xl overflow-hidden shadow-md relative group">
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+                        <img src="assets/our_services_4.jpg"
                             alt="Leadership Events" class="w-full h-64 object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
@@ -338,7 +336,8 @@
                     What Our <br /> Learners Says
                 </h2>
                 <p class="mb-4 font-semibold text-gray-400">
-                    Building confidence in every learner’s journey. Real stories from students who’ve grown their English skills with us.
+                    Building confidence in every learner’s journey. Real stories from students who’ve grown their
+                    English skills with us.
                 </p>
                 <button type="button bg-[#B589D6]" class='main_btn'>
                     <span class="span-mother">
@@ -371,7 +370,8 @@
                     <div>
                         <h4 class="font-bold text-gray-900">Mehwish</h4>
                         <p class="text-gray-600 text-sm">
-                            Supportive, attentive, and expert instructors. I gained fluency quickly and felt truly supported throughout every stage of learning. Highly recommend!
+                            Supportive, attentive, and expert instructors. I gained fluency quickly and felt truly
+                            supported throughout every stage of learning. Highly recommend!
                         </p>
                     </div>
                 </div>
@@ -383,7 +383,8 @@
                     <div>
                         <h4 class="font-bold text-gray-900">Elizabeth Jeff</h4>
                         <p class="text-gray-600 text-sm">
-                            Motivating, efficient, and deeply knowledgeable. Their personalized approach helped me achieve real English improvement. I’m proud of my progress here!
+                            Motivating, efficient, and deeply knowledgeable. Their personalized approach helped me
+                            achieve real English improvement. I’m proud of my progress here!
                         </p>
                     </div>
                 </div>
@@ -395,7 +396,8 @@
                     <div>
                         <h4 class="font-bold text-gray-900">Emily Thomas</h4>
                         <p class="text-gray-600 text-sm">
-                            Passionate, patient, and professional teachers. The learning environment was fun and engaging. I’m more confident in speaking English every day!
+                            Passionate, patient, and professional teachers. The learning environment was fun and
+                            engaging. I’m more confident in speaking English every day!
                         </p>
                     </div>
                 </div>
@@ -408,22 +410,50 @@
     <section id="our_mission" class="bg-[#f5f5f3]">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
             <div class="grid grid-cols-2 gap-4 mt-8">
-                <img class="w-full rounded-lg"
-                    src="assets/our_mission_1.jpg"
-                    alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg"
-                    src="assets/our_mission_2.jpg"
-                    alt="office content 2">
+                <img class="w-full rounded-lg" src="assets/our_mission_1.jpg" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="assets/our_mission_2.jpg" alt="office content 2">
             </div>
-            <div class="font-light text-gray-400 sm:text-lg dark:text-gray-500 text-center md:text-left">
+            <div class="font-light sm:text-lg text-gray-500 text-center md:text-left">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-600">Learn. Connect. Grow.</h2>
-                <p class="mb-4 font-semibold">In Salé, English education begins early in private schools, with public schools only recently incorporating it into their curriculum. While most students have access to English through online resources, fluency remains a challenge for many. Parents often seek to help their children become fluent but struggle to find a supportive community for them to grow in.</p>
-                <p class="font-semibold">Whether you're just starting your English journey or looking to advance your skills, our engaging and personalized lessons ensure that every learner feels confident and supported. At Planet English, we believe language is more than just a subject — it’s the gateway to new possibilities.
+                <p class="mb-4 font-semibold">In Salé, English education begins early in private schools, with public
+                    schools only recently incorporating it into their curriculum. While most students have access to
+                    English through online resources, fluency remains a challenge for many. Parents often seek to help
+                    their children become fluent but struggle to find a supportive community for them to grow in.</p>
+                <p class="font-semibold">Whether you're just starting your English journey or looking to advance your
+                    skills, our engaging and personalized lessons ensure that every learner feels confident and
+                    supported. At Planet English, we believe language is more than just a subject — it’s the gateway to
+                    new possibilities.
                 </p>
             </div>
         </div>
     </section>
     <!-- ===== End Our Mission Section ===== -->
+
+    <!-- ===== Start Join Now Section ===== -->
+    <section class="relative bg-cover bg-center h-[400px] flex items-center justify-center text-white"
+        style="background-image: url('assets/join_us_bg.jpg');">
+        <div class="bg-black/50 absolute inset-0"></div>
+        <div class="relative z-10 text-center px-4">
+            <p class="text-sm uppercase text-[#9969C7] mb-2 font-quicksand font-bold">Join Us Today</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-charcoal font-quicksand">Ready to Unlock Your English Potential?</h2>
+            <p class="max-w-xl mx-auto font-bold text-white/80 mb-6">
+                Whether you're taking your first step in learning English or aiming to sharpen your skills, Planet
+                English is here to support you.
+                With our engaging lessons and friendly community, you're never alone on your journey.
+            </p>
+            <div class="flex justify-center items-center">
+                <button type="button" class='main_btn items-center'>
+                    <span class="span-mother">
+                        <span>S</span><span>t</span><span>a</span><span>r</span><span>t</span>
+                    </span>
+                    <span class="span-mother2">
+                        <span>S</span><span>t</span><span>a</span><span>r</span><span>t</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End Join Now Section ===== -->
 
     <!-- ===== Start Contact Us Section ===== -->
     <section id="contact" class="min-h-[90vh] bg-gray-900 text-white">
@@ -514,7 +544,10 @@
                             <div
                                 class="h-5 w-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse z-50">
                             </div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.900262926962!2d-6.7939283999999995!3d34.0720709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7697a3503307d%3A0xc4ad238a3cfb069d!2sPlanet%20English%20Association!5e0!3m2!1sen!2sfr!4v1744673584726!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.900262926962!2d-6.7939283999999995!3d34.0720709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7697a3503307d%3A0xc4ad238a3cfb069d!2sPlanet%20English%20Association!5e0!3m2!1sen!2sfr!4v1744673584726!5m2!1sen!2sfr"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
@@ -529,7 +562,8 @@
                             <p class="text-gray-400 text-sm mb-1">Phone</p>
                             <a href="tel:+212 682 723 973" class="font-medium">+212 682 723 973</a>
                             <p class="text-gray-400 text-sm mt-6 mb-1">Email</p>
-                            <a class="font-medium" href="mailto:planetenglish@protonmail.com">planetenglish@protonmail.com</a>
+                            <a class="font-medium"
+                                href="mailto:planetenglish@protonmail.com">planetenglish@protonmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -612,7 +646,8 @@
 
     <!-- ===== Start Footer Section ===== -->
     <footer>
-        <p class="text-center bg-gray-900 text-white">© Designed with ❤️ By <a href="https://www.instagram.com/imad.iam/" class="text-[#9969C7] font-bold underline">iMad</a>.</p>
+        <p class="text-center bg-gray-900 text-white">© Designed with ❤️ By <a
+                href="https://www.instagram.com/imad.iam/" class="text-[#9969C7] font-bold underline">iMad</a>.</p>
     </footer>
     <!-- ===== End Footer Section ===== -->
 </body>
